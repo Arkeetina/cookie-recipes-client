@@ -13,14 +13,7 @@ class Header extends Component {
           <Link className="nav-link" to="/recipes/add" >Add recipe</Link>
         </li>
       ]
-    } else {
-      return [
-        <li className="nav-item" key={"3"}>
-          <Link className="nav-link" to="/recipes/sumbit">Contact us</Link>
-        </li>
-      ];
-    }
-
+    } 
   }
 
   render() {
