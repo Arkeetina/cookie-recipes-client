@@ -1,0 +1,14 @@
+export const FETCH_RECIPES_SUCCESS = 'fetch_recipes_success';
+export const FETCH_RECIPES_FAILURE = 'fetch_recipes_failure'
+export const FETCH_ONE_RECIPE = 'fetch_one_recipe';
+export const NOT_FOUND = 'not_found';
+export const CREATE_RECIPE_SUCCESS = 'create_recipe_success';
+export const CREATE_RECIPE_FAILURE = 'create_recipe_failure';
+export const POST_IMG = 'post_img';
+export const IMG_UPLOAD_FAIL = 'img_upload_fail';
+export const UPLOAD_SUCCESS = 'upload_success';
+export const DELETE_RECIPE = 'delete_recipe';
+export const EDIT_RECIPE = 'edit_recipe';
+export const AUTH_ADMIN = 'auth_admin';
+export const AUTH_ERROR = 'auth_error';
+export const UNAUTH_ADMIN = 'unauth_admin';
