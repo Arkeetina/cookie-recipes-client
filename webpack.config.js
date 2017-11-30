@@ -48,8 +48,8 @@ module.exports = (env) => {
     plugins: [
       CSSExtract,
       new webpack.DefinePlugin({
-        'process.env.FIREBASE_API_KEY': JSON.stringify(process.env.CLOUD_API),
-        'process.env.FIREBASE_API_URL': JSON.stringify(process.env.API_URL),
+        'process.env.CLOUD_API': JSON.stringify(process.env.CLOUD_API),
+        'process.env.API_URL': JSON.stringify(process.env.API_URL),
       }),
     ],
     devtool: isProduction ? 'source-map' : 'inline-source-map',
